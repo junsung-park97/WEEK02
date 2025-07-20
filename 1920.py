@@ -32,8 +32,10 @@ m_list = list(map(int, input().strip().split()))
 
 n_list.sort()
 
-for m in m_list: # m을 타겟설정
+for m in m_list: # m을 타겟설정, m_list를 n_list에서 찾아야됨 -> n_list를 이진탐색
     binary_search(n_list, m, 0, N - 1)
+
+
     
     
 
@@ -50,4 +52,6 @@ for m in m_list: # m을 타겟설정
 
 # for m in range M :
 # if m이 N에 포함이 된다면 
+
+
 
