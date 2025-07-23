@@ -23,5 +23,5 @@ for _ in range(n):
     if not is_vps or stack:
         print('NO')
     else :
-        print('YER')
+        print('YES')
 

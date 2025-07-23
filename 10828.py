@@ -27,3 +27,5 @@ for _ in range(n):
             print('-1')
         else :
             print(stack[-1])
+
+# 

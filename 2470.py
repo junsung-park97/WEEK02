@@ -9,8 +9,9 @@ arr.sort()
 left = 0
 right = n-1
 
-answer = abs(arr[left] + arr[right])
-final = [arr[left], arr[right]]
+#answer가 0에 가까워지면 질 수록 정답에 가까워진다
+answer = abs(arr[left] + arr[right]) # answer = abs(arr[left] + arr[right]) -> abs(-99 + 98) == abs(-1) == 1
+final = [arr[left], arr[right]] # -> 가장 0에 가까운 두 수를 저장하는 공간
 
 
 while left < right:
